@@ -45,6 +45,13 @@
 	});
 </script>
 
+<svelte:head>
+    <meta property="og:title" content="Is Baldur's Gate 3 Out Yet?" />
+    <meta property="og:description" content="Come to find out if BG3 is out yet!" />
+    <meta property="og:url" content="https://bg3.adammi.ch" />
+    <meta property="og:type" content="website" />
+</svelte:head>
+
 <div id="container">
 	<h2 style="margin-bottom:1em">
 		Is <img
