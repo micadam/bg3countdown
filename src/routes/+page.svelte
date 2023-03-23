@@ -5,9 +5,7 @@
 
 	let timeDeltaString = 'idk';
 
-	const divMod: (a: number, b: number) => [number, number] = (a, b) => {
-		return [Math.floor(a / b), a % b];
-	};
+	const divMod: (a: number, b: number) => [number, number] = (a, b) => [Math.floor(a / b), a % b];
 
 	const updateTimeDeltaString: () => Promise<void> = async () => {
 		let timeDelta = BG3ReleaseDate.valueOf() - new Date().valueOf();
