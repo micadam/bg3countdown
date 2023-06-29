@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 
-	const BG3ReleaseDate = new Date(2023, 8, 31);
+	const BG3ReleaseDate = new Date(2023, 8, 3);
 
 	let timeDeltaString = 'idk';
 
